@@ -233,7 +233,7 @@
     <div class="container">
     
         <?php
-        if($this->System_model->CheckLicenseExistsNoAlert() == 'yes')
+        /*if($this->System_model->CheckLicenseExistsNoAlert() == 'yes')
         {
             $DontShow = true;
         }
@@ -241,7 +241,7 @@
         if(!$DontShow)
         {
             ?><div class="alert alert-warning"><?php echo $this->lang->line('licensewarning'); ?></div><?php
-        }
+        }*/
         ?>
 <?php
  
